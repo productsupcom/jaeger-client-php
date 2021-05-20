@@ -42,6 +42,16 @@ class SpanContext implements OTSpanContext
         $this->debugId = $debugId;
     }
 
+    public function setTraceId($traceId)
+    {
+        $this->traceId = $traceId;
+    }
+
+    public function setParentId($parentId)
+    {
+        $this->parentId = $parentId;
+    }
+
     /**
      * {@inheritdoc}
      */
