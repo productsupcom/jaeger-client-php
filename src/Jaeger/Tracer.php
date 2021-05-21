@@ -178,9 +178,9 @@ class Tracer implements OTTracer
                 if ($sampled) {
                     $flags = SAMPLED_FLAG;
                     $tags = $tags ?? [];
-                    foreach ($samplerTags as $key => $value) {
-                        $tags[$key] = $value;
-                    }
+                    // foreach ($samplerTags as $key => $value) {
+                    //     $tags[$key] = $value;
+                    // }
                 }
             } else {  // have debug id
                 $flags = SAMPLED_FLAG | DEBUG_FLAG;
