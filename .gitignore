@@ -15,3 +15,6 @@ jaeger-client-php.iml
 
 phpunit.xml
 phpcs.xml
+
+.idea
+.phpunit.result.cache
